@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--- Muhammad Zikri (Universitas Muhammadiyah Jakarta) --->
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menghitung Luas</title>
+  </head>
+  <body>
+    <h2>Menghitung Luas Bangun Datar</h2>
+    <script>
+      function luasPersegiPanjang(panjang, lebar) {
+        return panjang * lebar;
+      }
+
+      function luasBujurSangkar(sisi) {
+        return sisi * sisi;
+      }
+
+      function luasSegitiga(alas, tinggi) {
+        return (alas * tinggi) / 2;
+      }
+
+      let panjang = 10,
+        lebar = 5;
+      let sisi = 7;
+      let alas = 8,
+        tinggi = 6;
+
+      console.log("Luas Persegi Panjang:", luasPersegiPanjang(panjang, lebar));
+      console.log("Luas Bujur Sangkar:", luasBujurSangkar(sisi));
+      console.log("Luas Segitiga:", luasSegitiga(alas, tinggi));
+    </script>
+  </body>
+</html>
