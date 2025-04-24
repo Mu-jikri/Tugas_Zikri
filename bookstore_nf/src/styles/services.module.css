@@ -1,0 +1,77 @@
+/* Container utama untuk section layanan */
+.services {
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 40px 0; /* Memberikan padding agar tampak lebih lapang */
+}
+
+/* Judul section layanan */
+.title {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 30px; /* Menambah jarak bawah */
+  font-weight: 600;
+}
+
+/* Container untuk card yang berisi layanan */
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Styling untuk tiap card layanan */
+.card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px; /* Sedikit lebih bulat untuk memberi kesan lebih modern */
+  background-color: #fff;
+  width: 300px;
+  text-align: left;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Efek bayangan lebih lembut */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efek hover */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Efek angkat ketika hover */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15); /* Bayangan lebih kuat saat hover */
+}
+
+/* Styling untuk judul card */
+.cardTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Styling untuk deskripsi card */
+.cardDescription {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* Styling untuk author (penulis) */
+.cardAuthor {
+  font-size: 0.9rem;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+/* Styling untuk tahun (tahun penerbitan) */
+.cardYear {
+  font-size: 0.9rem;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+/* Styling untuk gambar dalam card */
+.cardImage {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  object-fit: cover; /* Agar gambar terpotong dengan baik sesuai ukuran card */
+}
